@@ -46,21 +46,13 @@ body{
     border: none;
 }
 
-#new-btn{
-    padding: 1rem;
-    font-size: 1.25rem;
-    background-color: black;
-    color: white;
-    border-radius: 1rem;
-    border: none;
-}
 #msg {
     color: white;
     font-size: 5vmin;
 }
 
 .msg-container{
-    height: 20vmin;
+    height: 10vmin;
 }
 
 .hide{

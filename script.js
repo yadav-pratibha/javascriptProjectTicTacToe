@@ -1,6 +1,5 @@
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
-let newGamebtn = document.querySelector("#new-btn");
 let msgContainer = document.querySelector(".msg-container");    
 let msg = document.querySelector("#msg");
 
@@ -70,6 +69,5 @@ const checkWinner = () => {
 };
 
 
-newGamebtn.addEventListener("click",resetGame);
 resetBtn.addEventListener("click",resetGame);   
 
